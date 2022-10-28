@@ -1,0 +1,6 @@
+[2022-10-28 19:39:36] [ INFO ] [Empleado:24] El ID: 1es igual
+[2022-10-28 19:39:36] [ INFO ] [Empleado:24] El ID: 2es igual
+[2022-10-28 19:39:36] [ INFO ] [Empleado:24] El ID: 3es igual
+[2022-10-28 19:41:56] [ ERROR] [Empleado:30] Hay un id que se repite
+[2022-10-28 19:47:49] [ ERROR] [Empleado:32] Hay un id que se repite.
+[2022-10-28 19:48:51] [ ERROR] [Empleado:32] Hay un id que se repite.

@@ -1,0 +1,6 @@
+[2022-10-28 19:03:52] [ INFO ] [Cliente:37] ID: 1 - Primer Nombre: Rodolfo - Apellido: Baspineiro - Edad: 29
+[2022-10-28 19:03:52] [ INFO ] [Cliente:37] ID: 2 - Primer Nombre: Ezequiel - Apellido: Baspineiro - Edad: 29
+[2022-10-28 19:03:52] [ INFO ] [Cliente:37] ID: 3 - Primer Nombre: Kevin - Apellido: Baspineiro - Edad: 29
+[2022-10-28 19:03:52] [ WARN ] [Cliente:46] Aviso: se borró el usuario con id=3
+[2022-10-28 19:03:52] [ INFO ] [Cliente:54] ID: 1 - Primer Nombre: Rodolfo - Apellido: Baspineiro - Edad: 29
+[2022-10-28 19:03:52] [ INFO ] [Cliente:54] ID: 2 - Primer Nombre: Ezequiel - Apellido: Baspineiro - Edad: 29
