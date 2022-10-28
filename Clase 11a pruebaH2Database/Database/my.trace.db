@@ -1,0 +1,8 @@
+2022-10-27 11:07:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE [*]IF EXIST TEST; CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255))"; se esperaba "identifier"
+Syntax error in SQL statement "DROP TABLE [*]IF EXIST TEST; CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255))"; expected "identifier"; SQL statement:
+DROP TABLE IF EXIST TEST; CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255)) [42001-214]
+2022-10-27 11:08:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO TEST VALUES(1, 'HOLA' [*]"; se esperaba "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO TEST VALUES(1, 'HOLA' [*]"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO TEST VALUES(1, 'HOLA'  [42001-214]

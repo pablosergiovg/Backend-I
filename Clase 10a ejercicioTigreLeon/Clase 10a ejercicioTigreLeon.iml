@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/site/apidocs" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/contribs/CekiGulcu" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/contribs/Jamie Tsao" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/contribs/JimMoore" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/contribs/ThomasFenner" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/src/main/javadoc" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/src/performance/java" />
+          <root url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17/tests/src/java" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../ARCHIVOS/log4j-1.2.17/apache-log4j-1.2.17" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
