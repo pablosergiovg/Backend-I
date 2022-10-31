@@ -18,7 +18,7 @@ public class MedicamentoServiceTest {
         medicamentoService.guardar(medicamento);
 
         //entonces
-        Assertions.assertEquals(respuestaEsperada, medicamentoService.mostrarMedicamento(1));
+        Assertions.assertEquals(respuestaEsperada, medicamentoService.mostrarMedicamento(1).toString());
 
     }
 }
