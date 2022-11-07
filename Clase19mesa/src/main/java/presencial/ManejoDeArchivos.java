@@ -7,7 +7,6 @@ import java.util.List;
 public class ManejoDeArchivos{
 
 
-
     public static void guardarColeccionEnArchivo(List<Contacto> contactos){
 
 
