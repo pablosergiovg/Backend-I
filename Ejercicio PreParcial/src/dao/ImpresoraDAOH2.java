@@ -95,6 +95,7 @@ public class ImpresoraDAOH2 implements IDao<Impresora> {
 
 
         }catch (Exception e){
+            LOGGER.error("Error: " + e.getMessage());
             e.printStackTrace();
         }finally {
             try {
