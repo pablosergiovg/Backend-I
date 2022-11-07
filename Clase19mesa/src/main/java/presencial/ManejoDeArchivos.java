@@ -6,17 +6,10 @@ import java.util.List;
 
 public class ManejoDeArchivos{
 
-    public List<Contacto> contactos;
 
-    public ManejoDeArchivos() {
-        this.contactos = new ArrayList<>();
-    }
 
-    public void agregarContactosALista(Contacto contacto){
-        contactos.add(contacto);
-    }
+    public static void guardarColeccionEnArchivo(List<Contacto> contactos){
 
-    public void guardarColeccionEnArchivo(){
 
         //guardar lista en disco
         FileOutputStream fos = null;
@@ -35,7 +28,7 @@ public class ManejoDeArchivos{
 
     }
 
-    public void recuperarObjetos(String archivo){
+    public static void recuperarObjetos(String archivo){
 
         List<Contacto> listaContactos2 = new ArrayList<>();
         FileInputStream fis = null;
