@@ -1,0 +1,131 @@
+[2022-11-04 19:36:09] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:36:09] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:36:09] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:36:09] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:36:09] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 19:36:09] [ ERROR] [OdontologoDAOH2:89] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2022-11-04 19:36:53] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:36:53] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:36:53] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:36:53] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:36:53] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 19:36:53] [ ERROR] [OdontologoDAOH2:89] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2022-11-04 19:40:05] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:40:05] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:40:05] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:40:05] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:40:05] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 19:40:05] [ ERROR] [OdontologoDAOH2:89] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2022-11-04 19:45:30] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:45:30] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:45:30] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:45:30] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:45:30] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 19:45:30] [ ERROR] [OdontologoDAOH2:89] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2022-11-04 19:46:14] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:46:14] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:46:14] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:46:14] [ ERROR] [OdontologoDAOH2:40] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42104-214]
+[2022-11-04 19:46:14] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 19:46:14] [ ERROR] [OdontologoDAOH2:89] Error: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2022-11-04 19:48:23] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:48:23] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 19:48:23] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:16:22] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:16:22] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:16:22] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:16:22] [ INFO ] [PacienteDAOH2:29] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:16:22] [ ERROR] [PacienteDAOH2:46] Error: Tabla "PACIENTES" no encontrada
+Table "PACIENTES" not found; SQL statement:
+SELECT * FROM PACIENTES WHERE ID = ? [42102-214]
+[2022-11-04 20:17:01] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:17:01] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:17:01] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:17:01] [ INFO ] [PacienteDAOH2:29] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:17:01] [ ERROR] [PacienteDAOH2:46] Error: Tabla "PACIENTES" no encontrada
+Table "PACIENTES" not found; SQL statement:
+SELECT * FROM PACIENTES WHERE ID = ? [42102-214]
+[2022-11-04 20:20:46] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:20:46] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:20:46] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:20:46] [ INFO ] [PacienteDAOH2:29] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:20:46] [ ERROR] [PacienteDAOH2:46] Error: Tabla "PACIENTES" no encontrada
+Table "PACIENTES" not found; SQL statement:
+SELECT * FROM PACIENTES WHERE ID = ? [42102-214]
+[2022-11-04 20:21:17] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:21:17] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:21:17] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:21:17] [ INFO ] [PacienteDAOH2:29] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:21:34] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:21:34] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:21:34] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:21:35] [ INFO ] [PacienteDAOH2:29] Iniciando busqueda del paciente con id: null
+[2022-11-04 20:21:35] [ ERROR] [PacienteDAOH2:46] Error: Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2022-11-04 20:44:57] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:44:57] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:44:57] [ INFO ] [PacienteDAOH2:26] Se ha iniciado el guardado de un paciente
+[2022-11-04 20:44:58] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:44:58] [ INFO ] [PacienteDAOH2:60] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:55:27] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:55:27] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:55:27] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 20:55:27] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 20:55:27] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:55:27] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:56:22] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:56:22] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:56:22] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 20:56:22] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:56:22] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:56:47] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:56:47] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 20:56:47] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 20:56:47] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 20:56:47] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 20:56:47] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 20:56:47] [ INFO ] [DomicilioDAOH2:60] Iniciando la busqueda del domicilio con id: 1
+[2022-11-04 21:00:08] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:00:08] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:00:08] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 21:00:09] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 21:00:09] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 21:00:09] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 21:00:09] [ INFO ] [DomicilioDAOH2:60] Iniciando la busqueda del domicilio con id: 1
+[2022-11-04 21:02:03] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:02:03] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:02:03] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 21:02:03] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 21:02:03] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 21:02:03] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 21:02:03] [ INFO ] [DomicilioDAOH2:60] Iniciando la busqueda del domicilio con id: 1
+[2022-11-04 21:02:38] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:02:38] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:02:38] [ INFO ] [PacienteDAOH2:30] Se ha iniciado el guardado de un paciente
+[2022-11-04 21:02:38] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 21:02:38] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 21:02:38] [ INFO ] [PacienteDAOH2:64] Iniciando busqueda del paciente con id: 1
+[2022-11-04 21:02:39] [ INFO ] [DomicilioDAOH2:60] Iniciando la busqueda del domicilio con id: 1
+[2022-11-04 21:06:43] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:06:43] [ INFO ] [OdontologoDAOH2:25] Se ha iniciado el registro de un Odontologo
+[2022-11-04 21:06:43] [ INFO ] [PacienteDAOH2:29] Se ha iniciado el guardado de un paciente
+[2022-11-04 21:06:43] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 21:06:43] [ INFO ] [PacienteDAOH2:29] Se ha iniciado el guardado de un paciente
+[2022-11-04 21:06:43] [ INFO ] [DomicilioDAOH2:28] Inicio de una operación de guardar de domicilio
+[2022-11-04 21:06:43] [ INFO ] [OdontologoDAOH2:77] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-04 21:06:43] [ INFO ] [PacienteDAOH2:63] Iniciando busqueda del paciente con id: 2
+[2022-11-04 21:06:43] [ INFO ] [DomicilioDAOH2:60] Iniciando la busqueda del domicilio con id: 2
