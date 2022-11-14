@@ -36,3 +36,135 @@
 [2022-11-11 19:33:33] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
 [2022-11-11 19:36:35] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
 [2022-11-11 19:36:40] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
+[2022-11-14 12:04:15] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-14 12:07:22] [ INFO ] [PacienteDAOH2:180] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 12:07:22] [ ERROR] [PacienteDAOH2:202] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 12:15:56] [ INFO ] [PacienteDAOH2:180] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 12:15:56] [ ERROR] [PacienteDAOH2:202] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 12:16:21] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:16:21] [ INFO ] [PacienteDAOH2:180] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 12:16:21] [ ERROR] [PacienteDAOH2:202] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 12:16:38] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:16:38] [ INFO ] [PacienteDAOH2:180] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 12:16:38] [ ERROR] [PacienteDAOH2:202] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 12:17:49] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:17:49] [ INFO ] [PacienteDAOH2:180] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 12:17:49] [ ERROR] [PacienteDAOH2:202] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 12:35:38] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:35:53] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:39:00] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:42:08] [ INFO ] [PacienteDAOH2:38] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:44:59] [ INFO ] [PacienteDAOH2:37] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:44:59] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 12:47:26] [ INFO ] [PacienteDAOH2:37] Se ha iniciado el guardado de un paciente
+[2022-11-14 12:47:26] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:01:15] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:01:15] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:07:26] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-14 13:07:47] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 1
+[2022-11-14 13:07:47] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:07:47] [ INFO ] [PacienteDAOH2:111] Iniciando la actualización de un Paciente
+[2022-11-14 13:07:47] [ ERROR] [PacienteDAOH2:130] Error: Columna "EMAIL" no encontrada
+Column "EMAIL" not found; SQL statement:
+UPDATE PACIENTE SET APELLIDO = ?, NOMBRE = ?, DNI = ?, FECHA_INGRESO = ?, EMAIL = ?, DOMICILIO_ID = ? WHERE ID = ? [42122-214]
+[2022-11-14 13:08:17] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:08:17] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:09:08] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-14 13:09:08] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:09:08] [ INFO ] [PacienteDAOH2:111] Iniciando la actualización de un Paciente
+[2022-11-14 13:09:08] [ ERROR] [PacienteDAOH2:130] Error: Columna "EMAIL" no encontrada
+Column "EMAIL" not found; SQL statement:
+UPDATE PACIENTE SET APELLIDO = ?, NOMBRE = ?, DNI = ?, FECHA_INGRESO = ?, EMAIL = ?, DOMICILIO_ID = ? WHERE ID = ? [42122-214]
+[2022-11-14 13:32:38] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 1
+[2022-11-14 13:32:38] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:32:38] [ INFO ] [PacienteDAOH2:149] Inicianfo eliminacion del Paciente con id: 1
+[2022-11-14 13:32:38] [ ERROR] [PacienteDAOH2:157] Se ha borrado el id: 1
+[2022-11-14 13:38:40] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:38:40] [ ERROR] [PacienteDAOH2:199] Error e: Cannot invoke "com.example.sIntegradorV1.dao.DomicilioDAOH2.buscar(java.lang.Integer)" because "domicilioDAOH2" is null
+[2022-11-14 13:43:28] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:43:28] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:45:27] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:45:27] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:45:40] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:45:40] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:45:40] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:57:46] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:57:46] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:57:51] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:57:51] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:01] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:01] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:05] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:05] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:15] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:58:15] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:58:21] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:21] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:21] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:58:27] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:27] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:27] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:58:32] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:32] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:32] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:58:39] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:58:39] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:58:39] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 13:59:00] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:59:00] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:59:05] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:59:05] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:59:08] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 13:59:08] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 13:59:26] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:59:26] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:59:43] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:59:43] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 13:59:57] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 13:59:57] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:00:12] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 14:00:12] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 14:00:12] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 14:00:12] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-14 14:00:12] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4
+[2022-11-14 14:02:09] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 14:02:09] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 14:02:29] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:02:29] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:02:36] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:02:36] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:02:40] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:02:40] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:02:46] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 14:02:46] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 14:02:46] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 14:02:46] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-14 14:02:46] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4
+[2022-11-14 14:03:25] [ INFO ] [PacienteDAOH2:177] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 14:03:25] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 14:03:25] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 14:03:25] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-14 14:03:25] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4
+[2022-11-14 14:05:14] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:05:14] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:05:17] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:05:17] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:09:32] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:09:32] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:09:36] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:09:36] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:16:00] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:16:00] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:16:02] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:16:02] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:16:04] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-14 14:16:04] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-14 14:16:09] [ INFO ] [PacienteDAOH2:179] Iniciando la busqueda de todos los Pacientes
+[2022-11-14 14:16:09] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-14 14:16:09] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 14:16:09] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-14 14:16:09] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4
+[2022-11-14 14:16:16] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-14 14:16:16] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-14 14:16:21] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 4
+[2022-11-14 14:16:21] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4

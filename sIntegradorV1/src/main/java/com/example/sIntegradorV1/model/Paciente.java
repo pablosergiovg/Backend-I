@@ -12,6 +12,10 @@ public class Paciente {
     private String email;
     private Domicilio domicilio;
 
+    public Paciente(){
+
+    }
+
     public Paciente(Integer id, String apellido, String nombre, String dni, LocalDate fechaIngreso, String email, Domicilio domicilio) {
         this.id = id;
         this.apellido = apellido;

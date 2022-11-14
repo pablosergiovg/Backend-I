@@ -13,19 +13,16 @@ import java.util.List;
 
 public class PacienteDAOH2 implements IDao<Paciente>{
 
-    private DomicilioDAOH2 domicilioDAOH2;
-
-    private static final String SQL_INSERT = "INSERT INTO PACIENTES VALUES (DEFAULT,?,?,?,?,?,?)";
+    private static final String SQL_INSERT = "INSERT INTO PACIENTES (NOMBRE, APELLIDO, DNI, FECHA_INGRESO, EMAIL, DOMICILIO_ID) VALUES (?,?,?,?,?,?)";
     private static final String SQL_SELECT = "SELECT * FROM PACIENTES WHERE ID = ?";
     private static final String SQL_SELECT_BY_EMAIL="SELECT * FROM PACIENTES WHERE EMAIL=?";
     private static final String SQL_SELECT_ALL = "SELECT * FROM PACIENTES";
-    private static final String SQL_UPDATE = "UPDATE PACIENTE SET APELLIDO = ?, NOMBRE = ?, DNI = ?, FECHAINGRESO = ?, EMAIL = ?, ID_DOMICILIO = ? WHERE ID = ?";
+    private static final String SQL_UPDATE = "UPDATE PACIENTE SET APELLIDO = ?, NOMBRE = ?, DNI = ?, FECHA_INGRESO = ?, EMAIL = ?, DOMICILIO_ID = ? WHERE ID = ?";
     private static final String SQL_DELETE = "DELETE FROM PACIENTES WHERE ID = ?";
     //logger
     private static final Logger LOGGER = Logger.getLogger(PacienteDAOH2.class);
 
     public PacienteDAOH2() {
-        this.domicilioDAOH2 = new DomicilioDAOH2();
     }
 
     @Override
@@ -37,6 +34,8 @@ public class PacienteDAOH2 implements IDao<Paciente>{
 
             LOGGER.info("Se ha iniciado el guardado de un paciente");
             connection = BD.getConnection();
+            DomicilioDAOH2 domicilioDAOH2 = new DomicilioDAOH2();
+
             PreparedStatement psInsert = connection.prepareStatement(SQL_INSERT, Statement.RETURN_GENERATED_KEYS);
             psInsert.setString(1, paciente.getApellido());
             psInsert.setString(2, paciente.getNombre());
@@ -77,7 +76,9 @@ public class PacienteDAOH2 implements IDao<Paciente>{
             connection = BD.getConnection();
             PreparedStatement psSelect = connection.prepareStatement(SQL_SELECT);
             psSelect.setInt(1,id);
-            ResultSet rs = psSelect.executeQuery();
+            psSelect.execute();
+
+            ResultSet rs = psSelect.getResultSet();
             //Recordar que || Tabla Paciente -> 1, Pablo, Viera, 5323, 2-11-2022, 15(FK)
             DomicilioDAOH2 daoAux = new DomicilioDAOH2();
             while (rs.next()){
@@ -181,6 +182,7 @@ public class PacienteDAOH2 implements IDao<Paciente>{
         Paciente paciente = null;
         try {
 
+            domicilioDAOH2 = new DomicilioDAOH2();
             connection = BD.getConnection();
             PreparedStatement psSelectAll = connection.prepareStatement(SQL_SELECT_ALL);
             ResultSet rs = psSelectAll.executeQuery();
