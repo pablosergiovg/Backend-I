@@ -37,7 +37,7 @@ public class BD {
             "DNI, FECHA_INGRESO, EMAIL, DOMICILIO_ID) VALUES ('Rodolfo','Baspineiro','684','2022-11-10'," +
             "'prueba@gmail.com',1); ";
 
-    private static final String SQL_INSERT_INPUT_TRYHARD2 = "INSERT INTO ODONTOLOGOS(ID, MATRICULA, NOMBRE, APELLIDO) VALUES ( 1,21, 'Pablo', 'Viera')";
+    private static final String SQL_INSERT_INPUT_TRYHARD2 = "INSERT INTO ODONTOLOGOS(MATRICULA, NOMBRE, APELLIDO) VALUES (21, 'Pablo', 'Viera')";
 
     public static Connection getConnection() throws Exception{
         Class.forName("org.h2.Driver");

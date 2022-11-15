@@ -122,7 +122,7 @@ public class OdontologoDAOH2 implements IDao<Odontologo>{
     public void eliminar(Integer id) {
 
         Connection connection = null;
-        LOGGER.info("Inicianfo eliminacion del Odontologo con id: " + id);
+        LOGGER.info("Iniciando eliminacion del Odontologo con id: " + id);
 
         try {
 

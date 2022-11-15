@@ -168,3 +168,34 @@ UPDATE PACIENTE SET APELLIDO = ?, NOMBRE = ?, DNI = ?, FECHA_INGRESO = ?, EMAIL 
 [2022-11-14 14:16:16] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
 [2022-11-14 14:16:21] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 4
 [2022-11-14 14:16:21] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 4
+[2022-11-15 11:20:59] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:22:01] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:22:01] [ ERROR] [OdontologoDAOH2:47] Error: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 1, 21, 'Pablo', 'Viera')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 1, 21, 'Pablo', 'Viera')"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23505-214]
+[2022-11-15 11:26:42] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:27:02] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:28:54] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 11:29:00] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 3
+[2022-11-15 11:31:36] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:31:55] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 11:31:55] [ INFO ] [OdontologoDAOH2:95] Iniciando la actualización de un Odontologo
+[2022-11-15 11:33:16] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:36:39] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:36:48] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:37:08] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:37:14] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:40:04] [ INFO ] [PacienteDAOH2:179] Iniciando la busqueda de todos los Pacientes
+[2022-11-15 11:40:04] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-15 11:40:15] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 11:40:15] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 11:40:30] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 1
+[2022-11-15 11:40:30] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-15 11:40:30] [ INFO ] [PacienteDAOH2:151] Inicianfo eliminacion del Paciente con id: 1
+[2022-11-15 11:40:30] [ ERROR] [PacienteDAOH2:159] Se ha borrado el id: 1
+[2022-11-15 11:40:45] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-15 11:40:51] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:41:10] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 11:41:24] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
+[2022-11-15 11:41:24] [ INFO ] [OdontologoDAOH2:125] Inicianfo eliminacion del Odontologo con id: 1
+[2022-11-15 11:41:24] [ ERROR] [OdontologoDAOH2:133] Se ha borrado el id: 1

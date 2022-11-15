@@ -48,7 +48,7 @@ public class PacienteController {
 
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public String eliminarPaciente(@PathVariable("id") Integer id){
         Paciente pacienteBuscado = pacienteService.buscarPaciente(id);
         if(pacienteBuscado != null) {
