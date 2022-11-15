@@ -199,3 +199,63 @@ INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23505-214]
 [2022-11-15 11:41:24] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
 [2022-11-15 11:41:24] [ INFO ] [OdontologoDAOH2:125] Inicianfo eliminacion del Odontologo con id: 1
 [2022-11-15 11:41:24] [ ERROR] [OdontologoDAOH2:133] Se ha borrado el id: 1
+[2022-11-15 18:59:31] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 1
+[2022-11-15 18:59:31] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-15 18:59:31] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
+[2022-11-15 19:01:26] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:01:26] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:01:51] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:08:14] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-15 19:08:14] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-15 19:08:14] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 19:28:43] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 1
+[2022-11-15 19:28:43] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 1
+[2022-11-15 19:28:43] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 1
+[2022-11-15 19:36:27] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:36:56] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:36:56] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:37:14] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-15 19:37:14] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-15 19:37:14] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 19:50:20] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:50:20] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:50:24] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:50:33] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-15 19:50:33] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-15 19:50:33] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 19:50:39] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:50:39] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:50:40] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:50:50] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 3
+[2022-11-15 19:50:50] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-15 19:50:50] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 3
+[2022-11-15 19:59:01] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:59:01] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:59:02] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:59:02] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:59:04] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 19:59:04] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 19:59:06] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:59:07] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:59:07] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 19:59:17] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-15 19:59:17] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-15 19:59:17] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 19:59:22] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 3
+[2022-11-15 19:59:22] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-15 19:59:22] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 3
+[2022-11-15 20:01:47] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 20:01:47] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 20:01:48] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 20:01:48] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 20:01:48] [ INFO ] [PacienteDAOH2:35] Se ha iniciado el guardado de un paciente
+[2022-11-15 20:01:48] [ INFO ] [DomicilioDAOH2:29] Inicio de una operación de guardar de domicilio
+[2022-11-15 20:01:54] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 20:01:55] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 20:01:56] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-15 20:02:26] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 2
+[2022-11-15 20:02:26] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 2
+[2022-11-15 20:02:26] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 2
+[2022-11-15 20:02:48] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 3
+[2022-11-15 20:02:48] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
+[2022-11-15 20:02:48] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 3
