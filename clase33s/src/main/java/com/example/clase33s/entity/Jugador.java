@@ -3,7 +3,7 @@ package com.example.clase33s.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name="estudiantes")
+@Table(name="jugadores")
 public class Jugador {
 
     @Id
@@ -15,7 +15,7 @@ public class Jugador {
 
     @Column
     private String puesto;
-    
+
     @Column
     private Integer numero;
 

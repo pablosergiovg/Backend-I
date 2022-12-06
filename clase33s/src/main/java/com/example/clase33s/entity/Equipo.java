@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name="profesores")
+@Table(name="equipos")
 public class Equipo {
 
     @Id
@@ -16,18 +16,13 @@ public class Equipo {
     private String nombre;
 
     @Column
-    private String titulo;
+    private String ciudad;
 
-    @OneToMany(mappedBy = "profesor", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
-    private Set<Jugador> estudiantes = new HashSet<>();
+    @Column
+    private Integer cantidadCopas;
 
-    public Set<Jugador> getEstudiantes() {
-        return estudiantes;
-    }
-
-    public void setEstudiantes(Set<Jugador> estudiantes) {
-        this.estudiantes = estudiantes;
-    }
+    @OneToMany(mappedBy = "equipo", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
+    private Set<Jugador> jugadores = new HashSet<>();
 
     public Long getId() {
         return id;
@@ -45,11 +40,27 @@ public class Equipo {
         this.nombre = nombre;
     }
 
-    public String getTitulo() {
-        return titulo;
+    public String getCiudad() {
+        return ciudad;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public Set<Jugador> getJugadores() {
+        return jugadores;
+    }
+
+    public void setJugadores(Set<Jugador> jugadores) {
+        this.jugadores = jugadores;
+    }
+
+    public Integer getCantidadCopas() {
+        return cantidadCopas;
+    }
+
+    public void setCantidadCopas(Integer cantidadCopas) {
+        this.cantidadCopas = cantidadCopas;
     }
 }

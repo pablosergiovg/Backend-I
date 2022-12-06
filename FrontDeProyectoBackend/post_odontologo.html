@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepost.css">
+    <title>Registrar Odontologo</title>
+</head>
+<body>
+    <header>
+        <div class="h1Nav">
+            <h1>Clínica Odontológica</h1>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="/index.html">home</a></li>
+                    <li><a href="">Gestion Odontólogos</a></li>
+                    <li><a href="">Gestion Pacientes</a></li>
+                    <li><a href="">Gestion Turnos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contenedorFormulario">
+            <h3>Registrar Odontologo:</h3>
+            <form id="postOdontologo">
+                <span><label class="control-label" for="matricula">Matricula:</label></span>    
+                <input type="text" class="form-control" id="matricula"
+                       placeholder="Ingrese la matricula"
+                       name="matricula" required></input>
+                <label class="control-label" for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre"
+                       placeholder="Ingrese el nombre"
+                       name="nombre" required></input>
+                <label class="control-label" for="apellido">Apellido:</label>
+                <input type="text" class="form-control" id="apellido"
+                       placeholder="Ingrese el apellido"
+                       name="apellido" required></input>
+                <button type="submit" class="btn btn-danger"
+                        id="btn-add-new-odontologo">Guardar</button>
+            </form>
+        </section>
+        <section class="otrasAcciones">
+            <div class="fondoH2">
+                <h2>Otras Acciones</h2>
+            </div>
+            <div>
+                <a href="post_odontologo.html"><p>Registrar Odontólogo</p></a>
+                <a href="get_odontologo.html"><p>Buscar Odontólogo</p></a>
+                <a href="get_list_odontologos.html"><p>Listar Odontólogos</p></a>
+                <a href="put_odontologo.html"><p>Actualizar Odontólogo</p></a>
+                <a href="delete_odontologo"><p>Eliminar Odontólogo</p></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

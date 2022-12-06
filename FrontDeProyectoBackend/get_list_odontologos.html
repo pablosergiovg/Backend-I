@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleGetList.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="h1Nav">
+            <h1>Clínica Odontológica</h1>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="/index.html">home</a></li>
+                    <li><a href="">Gestion Odontólogos</a></li>
+                    <li><a href="">Gestion Pacientes</a></li>
+                    <li><a href="">Gestion Turnos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+<main>
+    <section class="seccionTabla">
+        <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Fecha de Ingreso</th>
+                <th>Email</th>
+                <th>Acción 1</th>
+                <th>Acción 2</th>
+            </tr>
+        </thead>
+        <tbody id="tablaPacienteBody">
+            <tr>
+                <td>1</td>
+                <td>Pablo</td>
+                <td>Viera</td>
+                <td>3423523</td>
+                <td>20-3-2022</td>
+                <td>pablo@gmail.com</td>
+                <td>Actualizar</td>
+                <td>Eliminar</td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    <section class="otrasAcciones">
+        <div class="fondoH2">
+            <h2>Otras Acciones</h2>
+        </div>
+        <div>
+            <a href="post_odontologo.html"><p>Registrar Odontólogo</p></a>
+            <a href="get_odontologo.html"><p>Buscar Odontólogo</p></a>
+            <a href="get_list_odontologos.html"><p>Listar Odontólogos</p></a>
+            <a href="put_odontologo.html"><p>Actualizar Odontólogo</p></a>
+            <a href="delete_odontologo"><p>Eliminar Odontólogo</p></a>
+        </div>
+    </section>
+</main>
+</html>
