@@ -259,3 +259,12 @@ INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23505-214]
 [2022-11-15 20:02:48] [ INFO ] [PacienteDAOH2:72] Iniciando busqueda del paciente con id: 3
 [2022-11-15 20:02:48] [ INFO ] [DomicilioDAOH2:61] Iniciando la busqueda del domicilio con id: 3
 [2022-11-15 20:02:48] [ INFO ] [OdontologoDAOH2:65] Iniciando la busqueda del Odontologo con id: 3
+[2022-11-16 14:51:32] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-16 14:52:04] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-16 15:11:51] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-16 15:13:26] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-16 15:13:30] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-16 15:13:32] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-16 15:13:33] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos
+[2022-11-16 15:13:48] [ INFO ] [OdontologoDAOH2:32] Se ha iniciado el registro de un Odontologo
+[2022-11-16 15:13:59] [ INFO ] [OdontologoDAOH2:157] Se ha iniciado la busqueda de todos los Odontologos

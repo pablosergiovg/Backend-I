@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Listado de pacientes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Clinica Muelitas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Gestión Odontologos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/post_odontologo.html">Registrar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Gestión Pacientes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/post_paciente.html">Registrar</a></li>
+                        <li><a class="dropdown-item" href="/get_paciente.html">Listar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div id="div_paciente_table">
+        <h1>Pacientes</h1>
+        <div class="row col table-responsive">
+            <table id="pacienteTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>DNI</th>
+                    <th>Fecha de Ingreso</th>
+                    <th>Email</th>
+                    <th>Acción 1</th>
+                    <th>Acción 2</th>
+                </tr>
+                </thead>
+                <tbody id="pacienteTableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8" style="display: none;
+											background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_paciente_updating">
+            <form id="update_paciente_form">
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="paciente_id" readonly>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre"
+                           placeholder="Ingrese el nombre"
+                           name="nombre" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido"
+                           placeholder="Ingrese el apellido"
+                           name="apellido" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="dni">Documento:</label>
+                    <input type="text" class="form-control" id="dni"
+                           placeholder="Ingrese el documento"
+                           name="dni" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="fechaIngreso">Fecha de Ingreso:</label>
+                    <input type="date" class="form-control" id="fechaIngreso"
+                           placeholder="Ingrese la fecha de ingreso"
+                           name="fechaIngreso" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="email">Email:</label>
+                    <input type="text" class="form-control" id="email"
+                           placeholder="Ingrese el email"
+                           name="email" required></input>
+                </div>
+                <div class="form-group">
+                    <label >Domicilio Id:</label>
+                    <input type="text" class="form-control" id="domicilio_id" readonly>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="calle">Calle:</label>
+                    <input type="text" class="form-control" id="calle"
+                           placeholder="Ingrese la calle del domicilio"
+                           name="calle" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="numero">Número del domicilio:</label>
+                    <input type="text" class="form-control" id="numero"
+                           placeholder="Ingrese el número de domicilio"
+                           name="numero" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="localidad">Localidad del domicilio:</label>
+                    <input type="text" class="form-control" id="localidad"
+                           placeholder="Ingrese la localidad del domicilio"
+                           name="localidad" required></input>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="provincia">Provincia del domicilio:</label>
+                    <input type="text" class="form-control" id="provincia"
+                           placeholder="Ingrese la provincia del domicilio"
+                           name="provincia" required></input>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/get_paciente.js"></script>
+<script type="text/javascript" src="/js/delete_paciente.js"></script>
+<script type="text/javascript" src="/js/update_paciente.js"></script>
+</body>
+</html>

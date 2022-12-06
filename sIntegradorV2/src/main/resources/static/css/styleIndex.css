@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px 0px;
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section article{
+    background-color:white;
+    width: 250px;
+    padding: 20px 20px;
+    border-radius: 6px;
+}
+
+section article .fondoH2{
+    background-color:cadetblue;
+    border-radius: 6px;
+}
+
+section article .fondoH2 h2{
+    text-align: center;
+    color: white;
+}
+
+section article div a{
+    text-decoration: none;
+}
+
+section article div a p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+a :hover{
+    background-color:beige;
+    border-radius: 6px;
+    font-weight: 700;
+}
