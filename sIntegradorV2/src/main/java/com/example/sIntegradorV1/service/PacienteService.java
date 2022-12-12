@@ -51,11 +51,11 @@ public class PacienteService {
         return pacienteRepository.findAll();
     }
 
-    /*
-    public Optional<Paciente> buscarPacienteByEmail(String email){
+
+    /*public Optional<Paciente> buscarPacienteByEmail(String email){
         LOGGER.info("Se ha iniciado la busqueda del Paciente con email: " + email);
         return pacienteRepository.findByEmail(email);
-    }
-    */
+    }*/
+
 
 }

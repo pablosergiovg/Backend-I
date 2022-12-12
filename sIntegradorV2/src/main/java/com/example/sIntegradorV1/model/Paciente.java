@@ -29,8 +29,8 @@ public class Paciente {
     @JoinColumn(name = "domicilio_id", referencedColumnName = "id")
     private Domicilio domicilio;
 
+    @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
     @JsonIgnore
-    @OneToMany(mappedBy = "paciente", fetch = FetchType.LAZY)
     private Set<Turno> turnos = new HashSet<>();
 
 

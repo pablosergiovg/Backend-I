@@ -1,30 +1,33 @@
+/*<---- HEADER ---->*/
+
 *{
     margin: 0;
-}
-
-body{
-    background-color: aliceblue;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 header{
     background-color: cadetblue;
     padding: 20px 0px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header .h1Nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+main{
+    background-image: url(/fondoCOdesenfocado.jpg);
+    height: 88vh;
+    background-size:cover;
 }
+
+.ah1{
+    text-decoration: none;
+}
+
 
 h1{
     color: white;
 }
 
-header div nav ul{
+ul{
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,23 +37,39 @@ header div nav ul li{
     list-style: none;
 }
 
-header div nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+ul, li{
+    font-size: 1.2rem;
 }
 
-header div nav ul li a:hover{
-    color: white;
+li a:hover{
+    font-weight: 700;
 }
+
+
+/*<---- HEADER ---->*/
 
 /*Seccion tabla*/
-
 
 .seccionTabla{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h3{
+    background-color: rgba(0, 0, 0, 0.245);
+    width: 100vw;
+    color: white;
+    margin: 20px 0px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px;
 }
 
 table{
@@ -60,10 +79,12 @@ table{
 
 thead{
     background-color: cadetblue;
+    border: cadetblue 1px solid;
 }
 
 th{
     padding: 20px 20px;
+    color: white;
 }
 
 td{
@@ -71,35 +92,15 @@ td{
     text-align: center;
 }
 
-tbody tr:hover {
-    background-color: beige;
-}
-
-
-/*Otras acciones*/
-
-
-.fondoH2{
-    margin-bottom: 10px;
-}
-
-.fondoH2 h2{
-    text-align: center;
-    color: black;
-}
-
-div a{
-    text-decoration: none;
-}
-
-div a p{
-    text-align: center;
-    font-size: 1.2rem;
-    color: black;
-}
-
-a :hover{
-    background-color:beige;
-    border-radius: 6px;
+.celdas > td{
+    color: white;
     font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+td > button{
+    border: none;
+    background-color:transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
 }

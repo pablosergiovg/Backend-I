@@ -65,8 +65,8 @@
                 <th>Eliminar</th>
             </tr>
             </thead>
-            <tbody id="tablaPacienteBody">
-            <!-- DESDE VA EN EL GET LIST-->
+            <tbody id="tablaOdontologo">
+            <!-- DESDE VA EN EL GET LIST
             <tr class="celdas">
                 <td>1</td>
                 <td>55345</td>
@@ -74,89 +74,46 @@
                 <td>Gil</td>
                 <td><button>📋</button></td>
                 <td><button>❌</button></td>
-                <!-- HASTA VA EN EL GET LIST-->
+                HASTA VA EN EL GET LIST-->
             </tr>
             </tbody>
         </table>
     </section>
+    <div class="mensaje"></div>
+
+    <div id="divActualizar">
+        <section class="contenedorFormulario">
+            <form id="actualizar">
+                <h3>Actualizar Odontologo:</h3>
+                <label for="odontologo_id">Id Odontologo:</label>
+                <input type="text" id="odontologo_id"
+                       placeholder="Ingrese el id"
+                       name="odontologo_id" readonly></input>
+
+                <label for="matricula">Matricula:</label>
+                <input type="text" id="matricula"
+                       placeholder="Ingrese el numero de la Matricula"
+                       name="matricula" required></input>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"
+                       placeholder="Ingrese el nombre"
+                       name="nombre" required></input>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido"
+                       placeholder="Ingrese el apellido"
+                       name="apellido" required></input>
+
+                <button type="submit" id="btn-add-new-odontologo">Actualizar</button>
+            </form>
+            <div class="mensaje"></div>
+        </section>
+    </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
-</html>
-
-
-
-<!--
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <title>Estudiantes</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class="container">
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link" href="/">Agregar nueva</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/list_odontologo.html/">Todas</a>
-        </li>
-        <li><a class="dropdown-item" href="/list_odontologo.html">Ver odontologos</a></li>
-    </ul>
-
-    <div id="div_pelicula_table">
-        <h1>Odontologo</h1>
-        <div class="row col-md-6 table-responsive">
-            <table id="odontologoTable" class="table table-striped">
-                <thead>
-                <tr>
-                    <th>Matricula</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody id="odontologoTableBody">
-
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-6" style="display: none;
-											background-color:#e6fffa; padding:10px; border-radius:3px"
-             id="div_odontologo_updating">
-            <form id="update_odontologo_form">
-                <div class="form-group">
-                    <label >Matricula:</label>
-                    <input type="text" class="form-control" id="odontologo_id" readonly>
-                </div>
-                <div class="form-group">
-                    <label >Nombre:</label>
-                    <input type="text" class="form-control" placeholder="Nombre" id="nombre">
-                </div>
-                <div class="form-group">
-                    <label >Apellido:</label>
-                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Modificar</button>
-            </form>
-            <div id="response" style="display:none; margin:10px">
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<script type="text/javascript" src="/js/get_odontologo.js"></script>
+<script type="text/javascript" src="./js/get_odontologo.js"></script>
+<script type="text/javascript" src="/js/update_odontologo.js"></script>
 <script type="text/javascript" src="/js/delete_odontologo.js"></script>
 </body>
 </html>
--->

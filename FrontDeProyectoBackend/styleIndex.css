@@ -1,59 +1,56 @@
+/*<---- HEADER ---->*/
+
 *{
     margin: 0;
 }
 
 header{
-    margin-bottom: 20px;
-}
-
-body{
-    background-color: aliceblue;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-h1{
-    text-align: center;
     background-color: cadetblue;
     padding: 20px 0px;
-    color: white;
-}
-
-section{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-section article{
-    background-color:white;
-    width: 250px;
-    padding: 20px 20px;
-    border-radius: 6px;
+main{
+    background-image: url(/fondoCO.jpg);
+    height: 88vh;
+    background-size:cover;
 }
 
-section article .fondoH2{
-    background-color:cadetblue;
-    border-radius: 6px;
-}
-
-section article .fondoH2 h2{
-    text-align: center;
-    color: white;
-}
-
-section article div a{
+.ah1{
     text-decoration: none;
 }
 
-section article div a p{
-    text-align: center;
-    font-size: 1.2rem;
-    color: black;
+
+h1{
+    color: white;
 }
 
-a :hover{
-    background-color:beige;
-    border-radius: 6px;
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header div nav ul li{
+    padding: 0px 10px;
+    list-style: none;
+}
+
+ul, li{
+    font-size: 1.2rem;
+}
+
+li a:hover{
     font-weight: 700;
+}
+
+
+/*<---- HEADER ---->*/
+
+
+footer{
+    text-align: center;
+    background-color: rgb(29, 49, 49);
+    color: white;
 }

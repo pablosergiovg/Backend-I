@@ -33,6 +33,13 @@ public class Turno {
         this.fecha = fecha;
     }
 
+    public Turno(Long id, Paciente paciente, Odontologo odontologo, LocalDate fecha) {
+        this.id = id;
+        this.paciente = paciente;
+        this.odontologo = odontologo;
+        this.fecha = fecha;
+    }
+
     public Long getId() {
         return id;
     }

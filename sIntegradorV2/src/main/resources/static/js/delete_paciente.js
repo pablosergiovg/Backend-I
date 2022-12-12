@@ -4,9 +4,11 @@ function deleteBy(id){
         method:'DELETE'
     }
     fetch(url,settings)
-    .then(response=> response.json())
-
-    //eliminar la fila de la tabla
-        let row_id = "#tr_" + id;
-        document.querySelector(row_id).remove();
+    .then(response => {
+        let fila = "#tr" + id;
+        document.querySelector(fila).remove();
+    }).catch(error => {
+        let mensajeError = '<h4>No se ha podido eliminar el paciente</h4>';
+        document.querySelector('.mensaje').innerHTML = mensajeError;
+    })
 }

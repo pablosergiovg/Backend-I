@@ -2,6 +2,6 @@ package com.example.sIntegradorV1.model;
 
 public enum UsuarioRole {
 
-    ROLE_USER
+    ROLE_USER, ROLE_ADMIN
 
 }

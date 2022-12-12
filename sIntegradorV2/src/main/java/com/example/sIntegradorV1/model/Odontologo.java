@@ -20,8 +20,8 @@ public class Odontologo {
     @Column
     private String apellido;
 
+    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
     @JsonIgnore
-    @OneToMany(mappedBy = "odontologo", fetch = FetchType.LAZY)
     private Set<Turno> turnos = new HashSet<>();
 
 

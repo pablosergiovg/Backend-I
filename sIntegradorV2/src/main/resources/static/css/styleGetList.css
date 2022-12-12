@@ -1,0 +1,200 @@
+/*<---- HEADER ---->*/
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: cadetblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    background-image: url(../media/fondoCOdesenfocado.jpg);
+    height: 88vh;
+    background-size:cover;
+}
+
+.ah1{
+    text-decoration: none;
+}
+
+
+h1{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header div nav ul li{
+    padding: 0px 10px;
+    list-style: none;
+}
+
+ul, li{
+    font-size: 1.2rem;
+}
+
+li a:hover{
+    font-weight: 700;
+}
+
+
+/*<---- HEADER ---->*/
+
+/*Seccion tabla*/
+
+.seccionTabla{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h3{
+    background-color: rgba(0, 0, 0, 0.245);
+    color: white;
+    margin: 20px 0px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: cadetblue;
+    border: cadetblue 1px solid;
+}
+
+th{
+    padding: 20px 20px;
+    color: white;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+}
+
+.celdas > td{
+    color: white;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+td > button{
+    border: none;
+    background-color:transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* FORM */
+
+
+.contenedorFormulario{
+    margin-bottom: 40px;
+    padding: 0px 40px;
+}
+
+.contenedorFormulario > h3{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    min-width: 350px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#btn-add-new-odontologo{
+    background-color:rgb(10, 188, 195);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+    text-align: center;
+}
+
+#btn-add-new-paciente{
+    background-color:rgb(10, 188, 195);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+#btn-add-new-turno{
+    background-color:rgb(10, 188, 195);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+label{
+    color: white;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.33);;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form h3{
+    margin: 0;
+}
+
+form input{
+    margin-bottom: 2px;
+}
+
+.mensaje{
+    text-align: center;
+}
+
+.mensaje h4{
+    margin-top: 15px;
+    background-color:rgb(0, 0, 0, 0.33);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#divActualizar{
+    display: none;
+}

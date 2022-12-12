@@ -23,9 +23,16 @@ public class CargarDatosIniciales implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         BCryptPasswordEncoder cifrador = new BCryptPasswordEncoder();
+        BCryptPasswordEncoder cifradorAdmin = new BCryptPasswordEncoder();
+
         String passCifrada = cifrador.encode("1234");
+        String passCifradaAdmin = cifradorAdmin.encode("12341234");
+
         Usuario usuario = new Usuario("Pablo", "pabloviera", "pablo@gmail.com", passCifrada, UsuarioRole.ROLE_USER);
         usuarioRepository.save(usuario);
+
+        Usuario usuarioAdmin = new Usuario("Pablo", "pabloviera", "pabloadmin@gmail.com", passCifradaAdmin, UsuarioRole.ROLE_ADMIN);
+        usuarioRepository.save(usuarioAdmin);
     }
 
 }

@@ -1,30 +1,43 @@
+/*<---- HEADER ---->*/
+
 *{
     margin: 0;
-}
-
-body{
-    background-color: aliceblue;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 header{
     background-color: cadetblue;
     padding: 20px 0px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header .h1Nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+main{
+    background-image: url(../media/fondoCOdesenfocado.jpg);
+    height: 88vh;
+    background-size:cover;
 }
+
+main h3{
+    background-color: rgba(0, 0, 0, 0.245);
+    width: 100vw;
+    color: white;
+    margin: 20px 0px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px;
+}
+
+.ah1{
+    text-decoration: none;
+}
+
 
 h1{
     color: white;
 }
 
-header div nav ul{
+ul{
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,15 +47,16 @@ header div nav ul li{
     list-style: none;
 }
 
-header div nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+ul, li{
+    font-size: 1.2rem;
 }
 
-header div nav ul li a:hover{
-    color: white;
+li a:hover{
+    font-weight: 700;
 }
+
+
+/*<---- HEADER ---->*/
 
 
 /*FORM*/
@@ -79,41 +93,64 @@ input{
     font-size: 1rem;
 }
 
-button{
-    background-color: forestgreen;
+#btn-add-new-odontologo{
+    background-color:rgb(10, 188, 195);
     border: none;
     border-radius: 6px;
     padding: 8px 0px;
     font-size: 1rem;
     font-weight: bold;
-}
-
-
-
-/*Otras acciones*/
-
-
-.fondoH2{
-    margin-bottom: 10px;
-}
-
-.fondoH2 h2{
+    margin-top: 14px;
     text-align: center;
-    color: black;
 }
 
-div a{
-    text-decoration: none;
-}
-
-div a p{
-    text-align: center;
-    font-size: 1.2rem;
-    color: black;
-}
-
-a :hover{
-    background-color:beige;
+#btn-add-new-paciente{
+    background-color:rgb(10, 188, 195);
+    border: none;
     border-radius: 6px;
-    font-weight: 700;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+#btn-add-new-turno{
+    background-color:rgb(10, 188, 195);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+label{
+    color: white;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.33);;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input{
+    margin-bottom: 2px;
+}
+
+form h3{
+    margin: 0;
+}
+
+.mensaje{
+    text-align: center;
+}
+
+.mensaje h4{
+    margin-top: 15px;
+    background-color:rgb(0, 0, 0, 0.33);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }

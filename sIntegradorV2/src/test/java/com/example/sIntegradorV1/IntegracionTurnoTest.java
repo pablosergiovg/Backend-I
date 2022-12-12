@@ -1,4 +1,4 @@
-package com.example.sIntegradorV1.Service;
+package com.example.sIntegradorV1;
 
 import com.example.sIntegradorV1.dto.TurnoDTO;
 import com.example.sIntegradorV1.model.Domicilio;
@@ -35,8 +35,7 @@ public class IntegracionTurnoTest {
     @Autowired
     private MockMvc mockMvc;
 
-
-    private void cargarTurnoInicial(){
+    public void cargarTurnoInicial(){
         Domicilio domicilio = new Domicilio("Varela", 32, "Salto", "Salto");
         Paciente paciente = new Paciente("Viera", "Pablo", "23423",
                 LocalDate.of(2022,11,28), "pablo@gmail.com", domicilio);
@@ -44,19 +43,18 @@ public class IntegracionTurnoTest {
         Odontologo odontologo = new Odontologo(1234, "Peter", "Sech");
         Odontologo odontologoGuardado = odontologoService.registrarOdontologo(odontologo);
         TurnoDTO turnoDTO = new TurnoDTO();
-        TurnoDTO.setFecha(LocalDate.of(2022,12,12));
+        turnoDTO.setFecha(LocalDate.of(2022,12,12));
         turnoDTO.setPacienteId(pacienteGuardado.getId());
         turnoDTO.setOdontologoId(odontologoGuardado.getId());
         turnoService.registrarTurno(turnoDTO);
     }
 
     @Test
-    private void listadoTurnoTest() throws Exception{
+    public void listadoTurnoTest()throws Exception{
         cargarTurnoInicial();
-        MvcResult respuesta = mockMvc.perform(MockMvcRequestBuilders.get("/turnos").accept(MediaType.APPLICATION_JSON))
+        MvcResult respuesta = mockMvc.perform(MockMvcRequestBuilders.get("/turno").accept(MediaType.APPLICATION_JSON))
                 .andDo(MockMvcResultHandlers.print())
                 .andExpect(MockMvcResultMatchers.status().isOk()).andReturn();
         assertFalse(respuesta.getResponse().getContentAsString().isEmpty());
     }
-
 }
