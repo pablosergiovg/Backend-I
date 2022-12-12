@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleGetList.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Lista Odontologos</title>
+</head>
+<body>
+<header class="header">
+    <a class="ah1" href="/index.html"><h1>Clínica Odontológica</h1></a>
+    <div >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav lass="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul>
+                <li>
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Odontologos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/post_odontologo.html">Registrar</a></li>
+                        <li><a class="dropdown-item" href="/get_list_odontologos.html">Listar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pacientes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/post_paciente.html">Registrar</a></li>
+                        <li><a class="dropdown-item" href="/get_list_pacientes.html">Listar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Turnos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/post_turno.html">Registrar</a></li>
+                        <li><a class="dropdown-item" href="/get_list_turnos.html">Listar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <h3>Odontologos</h3>
+    <section class="seccionTabla">
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Matricula</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+            </thead>
+            <tbody id="tablaPacienteBody">
+            <!-- DESDE VA EN EL GET LIST-->
+            <tr class="celdas">
+                <td>1</td>
+                <td>55345</td>
+                <td>Sergio</td>
+                <td>Gil</td>
+                <td><button>📋</button></td>
+                <td><button>❌</button></td>
+                <!-- HASTA VA EN EL GET LIST-->
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Estudiantes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/">Agregar nueva</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/list_odontologo.html/">Todas</a>
+        </li>
+        <li><a class="dropdown-item" href="/list_odontologo.html">Ver odontologos</a></li>
+    </ul>
+
+    <div id="div_pelicula_table">
+        <h1>Odontologo</h1>
+        <div class="row col-md-6 table-responsive">
+            <table id="odontologoTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Matricula</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody id="odontologoTableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6" style="display: none;
+											background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_odontologo_updating">
+            <form id="update_odontologo_form">
+                <div class="form-group">
+                    <label >Matricula:</label>
+                    <input type="text" class="form-control" id="odontologo_id" readonly>
+                </div>
+                <div class="form-group">
+                    <label >Nombre:</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label >Apellido:</label>
+                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<script type="text/javascript" src="/js/get_odontologo.js"></script>
+<script type="text/javascript" src="/js/delete_odontologo.js"></script>
+</body>
+</html>
+-->
